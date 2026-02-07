@@ -30,5 +30,3 @@ coverage/
 tmp/
 temp/
 
-# MySQL dumps (optional safety)
-*.sql

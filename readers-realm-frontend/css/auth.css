@@ -1,0 +1,188 @@
+/* Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-family: 'Merriweather', serif;
+    background-image: url("../Images/library-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+/* Centering Main Content */
+.container {
+    width: 50%;
+    max-width: 800px;
+    margin: 40px auto;  /* Centers content */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2a9d8f;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #2a9d8f;
+    margin-top: 15px;
+}
+
+/* Form Styling */
+form {
+    max-width: 90%;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fieldset */
+fieldset {
+    width: 100%;
+    border: 2px solid #4a4e69;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a4e69;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Input Fields */
+input, select, textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+}
+
+/* Checkbox & Radio Buttons */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #555;
+}
+
+/* Button Styling */
+button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e63946;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2a9d8f;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+/* Success Page Styling */
+.success-container {
+    width: 50%;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(212, 237, 218, 0.95); /* Light green success background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Success Message */
+.success-container h2 {
+    color: #2a9d8f;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.success-container p {
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #e63946;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussions</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/discussions.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/discussions.js" defer></script>
+    <script defer src="js/home.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="navbar-container"></div>
+    </header>    
+    
+    <!-- Discussions Section -->
+    <div class="discussions-container">
+        <h1>Book Discussions</h1>
+        
+        <!-- Toggle Discussion Form Button -->
+        <button id="toggleDiscussionForm">Post a Discussion</button>
+        
+        <!-- Discussion Form (Initially Hidden) -->
+        <div class="add-discussion" id="discussionFormContainer" style="display: none;">
+            <h2>Start a Discussion</h2>
+            <form id="discussionForm">
+                <input type="text" id="discussionTitle" placeholder="Discussion Title" required><br><br>
+                <textarea id="discussionDescription" placeholder="Describe your discussion..." required></textarea><br><br>
+                <button type="submit">Post Discussion</button>
+            </form>
+        </div>
+
+        <!-- Discussions List -->
+        <div class="discussions-list" id="discussionsList">
+            <!-- Discussions will be dynamically added here -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Reader's Realm | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>

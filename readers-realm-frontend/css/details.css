@@ -1,0 +1,128 @@
+/* General Page Styling */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Updated to match home.css */
+    color: #264653;
+}
+
+/* Container Styling */
+.details-container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #2a9d8f; /* Consistent with home.css */
+}
+
+/* Heading Styling */
+.details-container h1 {
+    text-align: center;
+    color: #264653; /* Matching home.css */
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* Book Cover */
+.book-cover {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #e76f51; /* Adjusted for consistency */
+    padding: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    width: 220px;
+}
+
+/* Book Info */
+.book-info {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Summary Section */
+.summary {
+    background: #e9ecef; /* Adjusted to match home.css */
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #2a9d8f;
+    margin-top: 15px;
+}
+
+.summary h3 {
+    color: #264653;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+/* Buy Button */
+.buy-button {
+    display: block;
+    width: 220px;
+    margin: 20px auto;
+    padding: 12px;
+    background-color: #e76f51;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: 3px solid #d62828;
+}
+
+.buy-button:hover {
+    background-color: #d62828;
+    border-color: #e76f51;
+}
+
+/* Reviews Link */
+.reviews {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.reviews a {
+    color: #264653;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #264653;
+}
+
+.reviews a:hover {
+    border-bottom: 2px solid #e76f51;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2a9d8f; /* Updated to match home.css */
+    color: white;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #ff6b6b;
+    text-decoration: underline;
+}

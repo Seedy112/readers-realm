@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reader's Realm - Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <script defer src="js/carousel.js"></script>
+    <script defer src="js/home.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div id="navbar-container"></div> <!-- Navbar will be loaded here -->
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Reader's Realm</h1>
+        <p>Your sanctuary for book lovers and storytellers.</p>
+        <a href="register.html" class="join-button">Join the Club</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <h2>Why Join Reader's Realm?</h2>
+      <div class="about-content">
+        <div class="about-box">
+          <h3>Community & Connections</h3>
+          <p>Engage with fellow book enthusiasts and share your thoughts.</p>
+        </div>
+        <div class="about-box">
+          <h3>Book Discussions</h3>
+          <p>Join exciting discussions on your favorite books and genres.</p>
+        </div>
+        <div class="about-box">
+          <h3>Exclusive Events</h3>
+          <p>Attend book launches, author Q&As, and reading sessions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Books Carousel -->
+    <section class="featured-books">
+      <h2>Featured Books</h2>
+      <div class="carousel-container">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <div class="carousel"></div> <!-- Books will be inserted here -->
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Reader's Realm | <a href="contact.html">Contact Us</a></p>
+    </footer>
+  </body>
+</html>

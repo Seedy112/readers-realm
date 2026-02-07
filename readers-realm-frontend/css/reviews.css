@@ -1,0 +1,112 @@
+/* General Page Styling */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Consistent with home.css */
+    color: #264653;
+}
+
+/* Container Styling */
+.reviews-container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #2a9d8f;
+}
+
+/* Heading Styling */
+.reviews-container h1 {
+    text-align: center;
+    color: #264653;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* Individual Review */
+.review {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #2a9d8f;
+    margin-bottom: 15px;
+}
+
+.review h3 {
+    color: #264653;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.review p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+}
+
+/* Review Form */
+.review-form {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 2px solid #2a9d8f;
+}
+
+.review-form h2 {
+    color: #264653;
+    text-align: center;
+}
+
+.review-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-form input, .review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #2a9d8f;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.review-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e76f51;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.review-form button:hover {
+    background-color: #d62828;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2a9d8f;
+    color: white;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #ff6b6b;
+}

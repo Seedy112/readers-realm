@@ -1,0 +1,186 @@
+/* Global Styles */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #264653;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #2a9d8f;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #264653;
+}
+
+.join-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.join-button:hover {
+    background-color: #e63946;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #2a9d8f;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-box {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-box h3 {
+    color: #264653;
+}
+
+.about-box p {
+    color: #555;
+}
+
+/* Featured Books (Carousel) */
+.featured-books {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+}
+
+.featured-books h2 {
+    font-size: 28px;
+    color: #2a9d8f;
+}
+
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Carousel Track */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Each Book Card */
+.book-card {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.book-card img {
+    width: 150px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+.book-card h3 a {
+    text-decoration: none;
+    color: #2a9d8f;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.book-card h3 a:hover {
+    color: #ff6b6b;
+}
+
+/* Navigation Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: black;
+}
+
+/* Footer */
+footer {
+    background-color: #2a9d8f;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #ff6b6b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+}

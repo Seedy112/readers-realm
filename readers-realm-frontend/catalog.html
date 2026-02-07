@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Catalog - Reader's Realm</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script defer src="js/catalog.js"></script>
+    <script defer src="js/home.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="navbar-container"></div>
+    </header>    
+
+    <!-- Search and Filter Section -->
+    <section class="search-filter">
+        <input type="text" id="searchBar" placeholder="Search books..." />
+        <select id="genreFilter">
+            <option value="all">All Genres</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Classic">Classic</option>
+            <option value="Dystopian">Dystopian</option>
+            <option value="Romance">Romance</option>
+            <option value="Coming-of-Age">Coming-of-Age</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Biography">Biography</option>
+            <option value="Self-Help">Self-Help</option>
+        </select>
+    </section>
+    
+
+    <!-- Book Catalog Grid (Books will be dynamically added here) -->
+    <section class="book-grid" id="bookGrid">
+        <!-- Book cards will be inserted dynamically -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Reader's Realm | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>

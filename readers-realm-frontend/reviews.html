@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reviews</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/reviews.js" defer></script>
+    <script defer src="js/home.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="navbar-container"></div>
+    </header>    
+
+    <!-- Main Content -->
+    <div class="reviews-container">
+        <h1>Book Reviews</h1>
+        
+        <!-- Book Information -->
+        <div class="book-details">
+            <img src="Images/book-cover.jpg" alt="Book Cover" id="bookCover" class="book-cover">
+            <h2 class="book-title" id="bookTitle">Book Title</h2>
+        </div>
+
+        <!-- Reviews Section -->
+        <div class="reviews-list" id="reviewsList">
+            <h3>User Reviews</h3>
+            <div class="review">
+                <p><strong>John Doe:</strong> ⭐⭐⭐⭐ "Great book! Loved the storytelling."</p>
+            </div>
+            <div class="review">
+                <p><strong>Jane Smith:</strong> ⭐⭐⭐ "Interesting plot, but slow-paced."</p>
+            </div>
+        </div>
+
+        <!-- Add a Review Form -->
+        <div class="add-review">
+            <h3>Add Your Review</h3>
+            <form id="reviewForm">
+                <input type="text" id="reviewerName" placeholder="Your Name" required><br><br>
+                <select id="reviewRating">
+                    <option value="5">⭐⭐⭐⭐⭐</option>
+                    <option value="4">⭐⭐⭐⭐</option>
+                    <option value="3">⭐⭐⭐</option>
+                    <option value="2">⭐⭐</option>
+                    <option value="1">⭐</option>
+                </select><br><br>
+                <textarea id="reviewText" placeholder="Write your review here..." required></textarea><br><br>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Reader's Realm | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Reader's Realm</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/navbar.css">
+    <script defer src="js/home.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f4f4f4;
+      background-image: repeating-linear-gradient(
+        45deg,
+        #f4f4f4,
+        #f4f4f4 20px,
+        #fbece7 20px,
+        #fbece7 40px
+      );
+      color: #333;
+    }
+
+    .btn {
+      background-color: #ff6f4f;
+      color: white;
+      padding: 12px 28px;
+      font-size: 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-weight: 500;
+    }
+
+    .btn:hover {
+      background-color: #e05e42;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 36px;
+      color: #2b9d97;
+      margin-bottom: 30px;
+    }
+
+    .about-content {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #555;
+      text-align: justify;
+      padding: 0 20px;
+    }
+
+    .highlight-box {
+      background-color: #fff5f0;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 40px 20px 20px 20px;
+      border-left: 6px solid #ff6f4f;
+      font-size: 17px;
+    }
+
+    .highlight-box h3 {
+      color: #ff6f4f;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .team {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .member {
+      width: 220px;
+      text-align: center;
+      margin: 20px;
+      background-color: #fdfdfd;
+      border: 2px solid #e7ecf0;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .member img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #ff6f4f;
+    }
+
+    .member h4 {
+      margin: 5px 0;
+      color: #2b9d97;
+      font-size: 20px;
+    }
+
+    .member p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #2a9d8f;
+        padding: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    footer a:hover {
+        color: #ff6b6b;
+    }
+  </style>
+</head>
+<body>
+    
+    <header>
+        <div id="navbar-container"></div> <!-- Navbar will be loaded here -->
+    </header>
+
+    <section>
+    <h2>About Us</h2>
+    <div class="about-content">
+        <p>Reader's Realm is a vibrant community where book lovers unite to share their passion for storytelling. Whether you're a reader, writer, or just love discussing great stories, this is your space to connect, learn, and grow.</p>
+        
+        <p>We believe in the power of words to inspire, entertain, and educate. Our club hosts regular virtual meetups, author interviews, themed reading challenges, and creative writing contests to keep the literary spirit alive and thriving.</p>
+    </div>
+
+    <div class="highlight-box">
+        <h3>Our Mission</h3>
+        <p>To create a safe, inclusive, and joyful place for readers and writers to explore new ideas, genres, and perspectives through literature.</p>
+    </div>
+
+    <h2>Meet the Team</h2>
+    <div class="team">
+        <div class="member">
+        <img src="https://via.placeholder.com/120" alt="Seeddharth">
+        <h4>Seeddharth</h4>
+        <p>Founder & Editor-in-Chief</p>
+        </div>
+        <div class="member">
+        <img src="https://via.placeholder.com/120" alt="Vedika">
+        <h4>Vedika</h4>
+        <p>Community Manager</p>
+        </div>
+        <div class="member">
+        <img src="https://via.placeholder.com/120" alt="Aniket">
+        <h4>Aniket</h4>
+        <p>Content Curator</p>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Reader's Realm | <a href="contact.html">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>

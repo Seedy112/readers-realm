@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #264653;
+}
+
+/* Header Styles */
+header {
+    background-color: #2a9d8f;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Event Details Container */
+.event-details-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.event-title {
+    font-size: 28px;
+    color: #2a9d8f;
+    text-align: center;
+}
+
+.event-info {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #264653;
+}
+
+.event-description {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #2a9d8f;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #ff6b6b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .event-details-container {
+        margin: 20px;
+        padding: 15px;
+    }
+}

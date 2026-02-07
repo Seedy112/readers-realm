@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Reader's Realm</title>
+    <script src="js/validation.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/auth.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login to Reader's Realm</h2>
+      <form>
+        <fieldset>
+          <legend>Login Credentials</legend>
+
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </fieldset>
+        <button type="button" onclick="validateForm('login')">Login</button>
+        <a href="register.html">Don't have an account? Register here</a>
+      </form>
+    </div>
+  </body>
+</html>
